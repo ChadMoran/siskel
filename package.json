@@ -1,6 +1,6 @@
 {
   "name": "siskel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A media recommender CLI",
   "engines": {
     "node": ">=16.0.0"

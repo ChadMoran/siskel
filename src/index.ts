@@ -6,7 +6,7 @@ import AI from './ai.js'
 
 const program = new Command()
 
-program.version('0.0.1').description('A CLI tool for suggesting movies')
+program.version('0.1.0').description('A CLI tool for suggesting movies')
 
 program
   .command('movies <movies>')
