@@ -2,16 +2,31 @@
   "name": "siskel",
   "version": "0.0.1",
   "description": "A media recommender CLI",
-  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "siskel": "./dist/index.js"
   },
   "author": "Chad Moran",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.3",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0",
+    "inquirer": "^9.1.5"
   }
 }
