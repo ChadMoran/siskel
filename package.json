@@ -27,6 +27,6 @@
     "@types/inquirer": "^9.0.3",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
-    "openai": "^3.2.1"
+    "openai": "^4.17.4"
   }
 }
